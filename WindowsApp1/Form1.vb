@@ -20,4 +20,17 @@
         Form2.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Label17_Click(sender As Object, e As EventArgs) Handles Label17.Click
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub BTNADMIN_Click(sender As Object, e As EventArgs) Handles BTNADMIN.Click
+        LOGIN.Show()
+
+    End Sub
 End Class

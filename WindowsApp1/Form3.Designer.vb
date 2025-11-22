@@ -25,23 +25,23 @@ Partial Class Form3
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
         Me.GroupBox14 = New System.Windows.Forms.GroupBox()
         Me.GroupBox15 = New System.Windows.Forms.GroupBox()
@@ -59,6 +59,8 @@ Partial Class Form3
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox19 = New System.Windows.Forms.GroupBox()
         Me.GroupBox20 = New System.Windows.Forms.GroupBox()
         Me.GroupBox21 = New System.Windows.Forms.GroupBox()
@@ -76,48 +78,46 @@ Partial Class Form3
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.GroupBox12 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox13.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
-        Me.GroupBox12.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox12.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Perpetua Titling MT", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(275, 28)
+        Me.Label1.Font = New System.Drawing.Font("Perpetua Titling MT", 31.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(477, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(352, 55)
+        Me.Label1.Size = New System.Drawing.Size(402, 64)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "OUR SERVICES"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(202, 74)
+        Me.Label2.Font = New System.Drawing.Font("Lucida Calligraphy", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(361, 86)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(533, 23)
+        Me.Label2.Size = New System.Drawing.Size(635, 23)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Comprehensive hair care and styling services to help you look to best"
         '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.Beige
+        Me.GroupBox1.BackColor = System.Drawing.Color.Wheat
         Me.GroupBox1.Controls.Add(Me.GroupBox11)
         Me.GroupBox1.Controls.Add(Me.GroupBox10)
         Me.GroupBox1.Controls.Add(Me.GroupBox9)
@@ -133,17 +133,162 @@ Partial Class Form3
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Location = New System.Drawing.Point(39, 143)
+        Me.GroupBox1.Location = New System.Drawing.Point(247, 143)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(276, 300)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
+        'GroupBox11
+        '
+        Me.GroupBox11.BackColor = System.Drawing.Color.Black
+        Me.GroupBox11.Location = New System.Drawing.Point(6, 263)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Size = New System.Drawing.Size(261, 2)
+        Me.GroupBox11.TabIndex = 8
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "GroupBox11"
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.BackColor = System.Drawing.Color.Black
+        Me.GroupBox10.Location = New System.Drawing.Point(5, 224)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(261, 2)
+        Me.GroupBox10.TabIndex = 8
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "GroupBox10"
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.BackColor = System.Drawing.Color.Black
+        Me.GroupBox9.Location = New System.Drawing.Point(8, 186)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(261, 2)
+        Me.GroupBox9.TabIndex = 8
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "GroupBox9"
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.BackColor = System.Drawing.Color.Black
+        Me.GroupBox8.Location = New System.Drawing.Point(8, 139)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(261, 2)
+        Me.GroupBox8.TabIndex = 13
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "GroupBox8"
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.BackColor = System.Drawing.Color.Black
+        Me.GroupBox7.Location = New System.Drawing.Point(6, 94)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(261, 2)
+        Me.GroupBox7.TabIndex = 7
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "GroupBox7"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(238, 234)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(28, 16)
+        Me.Label15.TabIndex = 12
+        Me.Label15.Text = "300"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(238, 195)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(28, 16)
+        Me.Label14.TabIndex = 11
+        Me.Label14.Text = "200"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(238, 154)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(28, 16)
+        Me.Label13.TabIndex = 10
+        Me.Label13.Text = "150"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(238, 110)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(28, 16)
+        Me.Label12.TabIndex = 9
+        Me.Label12.Text = "200"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(238, 65)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(28, 16)
+        Me.Label11.TabIndex = 8
+        Me.Label11.Text = "250"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(2, 234)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(227, 20)
+        Me.Label10.TabIndex = 7
+        Me.Label10.Text = "Updo\Special Occasion"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(2, 191)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(202, 20)
+        Me.Label9.TabIndex = 7
+        Me.Label9.Text = "Blow Dry and Style"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(2, 151)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(192, 20)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "Children`s Haircut"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(2, 106)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(144, 20)
+        Me.Label7.TabIndex = 7
+        Me.Label7.Text = "Men`s Haircut"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(2, 65)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(176, 20)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Women`s Haircut"
+        '
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.LightCoral
         Me.GroupBox4.Controls.Add(Me.Label3)
-        Me.GroupBox4.Location = New System.Drawing.Point(39, 143)
+        Me.GroupBox4.Location = New System.Drawing.Point(247, 143)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(276, 44)
         Me.GroupBox4.TabIndex = 5
@@ -159,154 +304,9 @@ Partial Class Form3
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "HAIRSTYLES AND STYLING"
         '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(2, 65)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(176, 20)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "Women`s Haircut"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(2, 106)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(144, 20)
-        Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Men`s Haircut"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(2, 151)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(192, 20)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "Children`s Haircut"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(2, 191)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(202, 20)
-        Me.Label9.TabIndex = 7
-        Me.Label9.Text = "Blow Dry and Style"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(2, 234)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(227, 20)
-        Me.Label10.TabIndex = 7
-        Me.Label10.Text = "Updo\Special Occasion"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(238, 65)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(28, 16)
-        Me.Label11.TabIndex = 8
-        Me.Label11.Text = "250"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(238, 110)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(28, 16)
-        Me.Label12.TabIndex = 9
-        Me.Label12.Text = "200"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(238, 154)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(28, 16)
-        Me.Label13.TabIndex = 10
-        Me.Label13.Text = "150"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(238, 195)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(28, 16)
-        Me.Label14.TabIndex = 11
-        Me.Label14.Text = "200"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(238, 234)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(28, 16)
-        Me.Label15.TabIndex = 12
-        Me.Label15.Text = "300"
-        '
-        'GroupBox7
-        '
-        Me.GroupBox7.BackColor = System.Drawing.Color.Black
-        Me.GroupBox7.Location = New System.Drawing.Point(6, 94)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(261, 2)
-        Me.GroupBox7.TabIndex = 7
-        Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "GroupBox7"
-        '
-        'GroupBox8
-        '
-        Me.GroupBox8.BackColor = System.Drawing.Color.Black
-        Me.GroupBox8.Location = New System.Drawing.Point(8, 139)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(261, 2)
-        Me.GroupBox8.TabIndex = 13
-        Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "GroupBox8"
-        '
-        'GroupBox9
-        '
-        Me.GroupBox9.BackColor = System.Drawing.Color.Black
-        Me.GroupBox9.Location = New System.Drawing.Point(8, 186)
-        Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(261, 2)
-        Me.GroupBox9.TabIndex = 8
-        Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Text = "GroupBox9"
-        '
-        'GroupBox10
-        '
-        Me.GroupBox10.BackColor = System.Drawing.Color.Black
-        Me.GroupBox10.Location = New System.Drawing.Point(5, 224)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(261, 2)
-        Me.GroupBox10.TabIndex = 8
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "GroupBox10"
-        '
-        'GroupBox11
-        '
-        Me.GroupBox11.BackColor = System.Drawing.Color.Black
-        Me.GroupBox11.Location = New System.Drawing.Point(6, 263)
-        Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Size = New System.Drawing.Size(261, 2)
-        Me.GroupBox11.TabIndex = 8
-        Me.GroupBox11.TabStop = False
-        Me.GroupBox11.Text = "GroupBox11"
-        '
         'GroupBox13
         '
-        Me.GroupBox13.BackColor = System.Drawing.Color.Beige
+        Me.GroupBox13.BackColor = System.Drawing.Color.Wheat
         Me.GroupBox13.Controls.Add(Me.GroupBox14)
         Me.GroupBox13.Controls.Add(Me.GroupBox15)
         Me.GroupBox13.Controls.Add(Me.GroupBox16)
@@ -322,7 +322,7 @@ Partial Class Form3
         Me.GroupBox13.Controls.Add(Me.Label24)
         Me.GroupBox13.Controls.Add(Me.Label25)
         Me.GroupBox13.Controls.Add(Me.Label26)
-        Me.GroupBox13.Location = New System.Drawing.Point(330, 143)
+        Me.GroupBox13.Location = New System.Drawing.Point(538, 143)
         Me.GroupBox13.Name = "GroupBox13"
         Me.GroupBox13.Size = New System.Drawing.Size(276, 300)
         Me.GroupBox13.TabIndex = 7
@@ -475,7 +475,7 @@ Partial Class Form3
         '
         'GroupBox5
         '
-        Me.GroupBox5.BackColor = System.Drawing.Color.Beige
+        Me.GroupBox5.BackColor = System.Drawing.Color.Wheat
         Me.GroupBox5.Controls.Add(Me.GroupBox2)
         Me.GroupBox5.Controls.Add(Me.GroupBox19)
         Me.GroupBox5.Controls.Add(Me.GroupBox20)
@@ -492,11 +492,31 @@ Partial Class Form3
         Me.GroupBox5.Controls.Add(Me.Label34)
         Me.GroupBox5.Controls.Add(Me.Label35)
         Me.GroupBox5.Controls.Add(Me.Label36)
-        Me.GroupBox5.Location = New System.Drawing.Point(625, 143)
+        Me.GroupBox5.Location = New System.Drawing.Point(833, 143)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(276, 300)
         Me.GroupBox5.TabIndex = 9
         Me.GroupBox5.TabStop = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.BackColor = System.Drawing.Color.LightCoral
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Location = New System.Drawing.Point(0, 0)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(276, 44)
+        Me.GroupBox2.TabIndex = 10
+        Me.GroupBox2.TabStop = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(69, 14)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(133, 21)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "TREATMENTS"
         '
         'GroupBox19
         '
@@ -657,31 +677,11 @@ Partial Class Form3
         '
         Me.GroupBox12.BackColor = System.Drawing.Color.LightCoral
         Me.GroupBox12.Controls.Add(Me.Label16)
-        Me.GroupBox12.Location = New System.Drawing.Point(330, 143)
+        Me.GroupBox12.Location = New System.Drawing.Point(538, 143)
         Me.GroupBox12.Name = "GroupBox12"
         Me.GroupBox12.Size = New System.Drawing.Size(276, 44)
         Me.GroupBox12.TabIndex = 8
         Me.GroupBox12.TabStop = False
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.BackColor = System.Drawing.Color.LightCoral
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(0, 0)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(276, 44)
-        Me.GroupBox2.TabIndex = 10
-        Me.GroupBox2.TabStop = False
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(69, 14)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(133, 21)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "TREATMENTS"
         '
         'GroupBox3
         '
@@ -695,73 +695,9 @@ Partial Class Form3
         Me.GroupBox3.Controls.Add(Me.Label5)
         Me.GroupBox3.Location = New System.Drawing.Point(1, 543)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(941, 163)
+        Me.GroupBox3.Size = New System.Drawing.Size(1365, 163)
         Me.GroupBox3.TabIndex = 10
         Me.GroupBox3.TabStop = False
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Perpetua Titling MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(329, 13)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(282, 23)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Important Information"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(217, 54)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(506, 16)
-        Me.Label37.TabIndex = 1
-        Me.Label37.Text = "Free consultations are available for all color services and major transformations" &
-    "."
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(415, 38)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(110, 16)
-        Me.Label38.TabIndex = 2
-        Me.Label38.Text = "CONSULTATION"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(389, 73)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(162, 16)
-        Me.Label39.TabIndex = 3
-        Me.Label39.Text = "CANCELLATION POLICY"
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(145, 90)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(650, 16)
-        Me.Label40.TabIndex = 4
-        Me.Label40.Text = "Please provide at least 24 hours notice for cancellations. Late cancellations or " &
-    "no-shows may incur a fee."
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.LightCoral
-        Me.Button1.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(294, 122)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(353, 30)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Book Your Appointment"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -774,12 +710,76 @@ Partial Class Form3
         Me.Button2.Text = "BACK"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.LightCoral
+        Me.Button1.Font = New System.Drawing.Font("Perpetua Titling MT", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(506, 122)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(353, 30)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Book Your Appointment"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(357, 90)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(650, 16)
+        Me.Label40.TabIndex = 4
+        Me.Label40.Text = "Please provide at least 24 hours notice for cancellations. Late cancellations or " &
+    "no-shows may incur a fee."
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(601, 73)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(162, 16)
+        Me.Label39.TabIndex = 3
+        Me.Label39.Text = "CANCELLATION POLICY"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(627, 38)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(110, 16)
+        Me.Label38.TabIndex = 2
+        Me.Label38.Text = "CONSULTATION"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Georgia", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(429, 54)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(506, 16)
+        Me.Label37.TabIndex = 1
+        Me.Label37.Text = "Free consultations are available for all color services and major transformations" &
+    "."
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Perpetua Titling MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(541, 13)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(282, 23)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "Important Information"
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(937, 707)
+        Me.BackColor = System.Drawing.Color.Beige
+        Me.ClientSize = New System.Drawing.Size(1357, 707)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox12)
         Me.Controls.Add(Me.GroupBox5)
@@ -798,10 +798,10 @@ Partial Class Form3
         Me.GroupBox13.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
-        Me.GroupBox12.ResumeLayout(False)
-        Me.GroupBox12.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox12.ResumeLayout(False)
+        Me.GroupBox12.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)

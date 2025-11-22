@@ -8,4 +8,8 @@
         Form2.Show()
         Me.Hide()
     End Sub
+
+    Private Sub GroupBox4_Enter(sender As Object, e As EventArgs) Handles GroupBox4.Enter
+
+    End Sub
 End Class
