@@ -1,18 +1,11 @@
 ﻿Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Ensure the grid has columns to match the appointment fields.
-        If DataGridView1.Columns.Count = 0 Then
-            DataGridView1.Columns.Clear()
-            DataGridView1.Columns.Add("FullName", "Full Name")
-            DataGridView1.Columns.Add("Phone", "Phone")
-            DataGridView1.Columns.Add("Email", "Email")
-            DataGridView1.Columns.Add("Service", "Service")
-            DataGridView1.Columns.Add("TimeSlot", "Preferred Time")
-            DataGridView1.Columns.Add("Date", "Preferred Date")
-            DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
-        End If
+        InitializeAppointmentsTable()
+        DataGridView1.DataSource = AppointmentsTable
+        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
     End Sub
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ' BOOK NOW - collect values
@@ -30,18 +23,8 @@
             Return
         End If
 
-        ' Add row to grid (returns the row index)
-        Dim rowIndex As Integer = DataGridView1.Rows.Add(New Object() {
-            full,
-            phone,
-            email,
-            service,
-            timeslot,
-            prefDate.ToShortDateString()
-        })
-
-        ' Programmatically raise the cell click handler so the details are shown in the left controls
-        DataGridView1_CellContentClick(DataGridView1, New DataGridViewCellEventArgs(0, rowIndex))
+        ' Add row to the shared AppointmentsTable
+        AppointmentsTable.Rows.Add(full, phone, email, service, timeslot, prefDate.ToShortDateString())
 
         ' Optionally clear inputs after booking:
         TextBox1.Clear()
@@ -51,6 +34,7 @@
         ListBox2.ClearSelected()
         DateTimePicker1.Value = DateTime.Now
     End Sub
+
 
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         ' When a grid cell (or the programmatic call) targets a row, populate the Appointment Details controls.
@@ -112,7 +96,25 @@
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
     End Sub
 
+
     Private Sub ListBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox2.SelectedIndexChanged
     End Sub
-
+    ' Call this when you want to show Form5 and display the data
+    Public Sub ShowAppointmentsInForm5()
+        ' Ensure columns are set up
+        Form5.DataGridView1.Rows.Clear()
+        For Each row As DataGridViewRow In Me.DataGridView1.Rows
+            If Not row.IsNewRow Then
+                Form5.DataGridView1.Rows.Add(
+                    row.Cells("FullName").Value,
+                    row.Cells("Phone").Value,
+                    row.Cells("Email").Value,
+                    row.Cells("Service").Value,
+                    row.Cells("TimeSlot").Value,
+                    row.Cells("Date").Value
+                )
+            End If
+        Next
+        Form5.Show()
+    End Sub
 End Class

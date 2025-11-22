@@ -42,12 +42,6 @@ Partial Class Form2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.FullName = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Phone = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Email = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Service = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TimeSlot = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PreferredDate = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -63,9 +57,10 @@ Partial Class Form2
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Perpetua Titling MT", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(333, 27)
+        Me.Label1.Location = New System.Drawing.Point(250, 22)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(676, 55)
+        Me.Label1.Size = New System.Drawing.Size(547, 44)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Book Your Appointment"
         '
@@ -73,9 +68,10 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Lucida Calligraphy", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(461, 71)
+        Me.Label2.Location = New System.Drawing.Point(346, 58)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(421, 23)
+        Me.Label2.Size = New System.Drawing.Size(350, 19)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Select your preferred date, time, and services"
         '
@@ -96,65 +92,71 @@ Partial Class Form2
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
-        Me.GroupBox1.Location = New System.Drawing.Point(39, 125)
+        Me.GroupBox1.Location = New System.Drawing.Point(29, 102)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(411, 388)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(308, 315)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(154, 311)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(116, 253)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(245, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(185, 20)
         Me.DateTimePicker1.TabIndex = 17
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(138, 221)
+        Me.Label10.Location = New System.Drawing.Point(104, 180)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(0, 19)
+        Me.Label10.Size = New System.Drawing.Size(0, 16)
         Me.Label10.TabIndex = 16
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(6, 314)
+        Me.Label9.Location = New System.Drawing.Point(4, 255)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(138, 19)
+        Me.Label9.Size = New System.Drawing.Size(114, 16)
         Me.Label9.TabIndex = 15
         Me.Label9.Text = "PREFFERED DATE"
         '
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 16
         Me.ListBox2.Items.AddRange(New Object() {"9:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00", "1:00 - 2:00", "2:00 - 3:00", "4:00 - 5:00", "5:00 - 6:00", "6:00 - 7:00"})
-        Me.ListBox2.Location = New System.Drawing.Point(154, 264)
+        Me.ListBox2.Location = New System.Drawing.Point(116, 214)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(245, 20)
+        Me.ListBox2.Size = New System.Drawing.Size(185, 17)
         Me.ListBox2.TabIndex = 14
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
         Me.ListBox1.Items.AddRange(New Object() {"HAIRSTYLES", "TREATMENTS", "HAIR COLORING"})
-        Me.ListBox1.Location = New System.Drawing.Point(148, 211)
+        Me.ListBox1.Location = New System.Drawing.Point(111, 171)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(251, 20)
+        Me.ListBox1.Size = New System.Drawing.Size(189, 17)
         Me.ListBox1.TabIndex = 13
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(6, 264)
+        Me.Label8.Location = New System.Drawing.Point(4, 214)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(135, 19)
+        Me.Label8.Size = New System.Drawing.Size(112, 16)
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "PREFFERED TIME"
         '
@@ -162,60 +164,67 @@ Partial Class Form2
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(47, 211)
+        Me.Label7.Location = New System.Drawing.Point(35, 171)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(73, 19)
+        Me.Label7.Size = New System.Drawing.Size(61, 16)
         Me.Label7.TabIndex = 10
         Me.Label7.Text = "SERVICE"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(148, 158)
+        Me.TextBox3.Location = New System.Drawing.Point(111, 128)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(251, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(189, 20)
         Me.TextBox3.TabIndex = 9
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(66, 159)
+        Me.Label6.Location = New System.Drawing.Point(50, 129)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(54, 19)
+        Me.Label6.Size = New System.Drawing.Size(45, 16)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "EMAIL"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(148, 112)
+        Me.TextBox2.Location = New System.Drawing.Point(111, 91)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(251, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(189, 20)
         Me.TextBox2.TabIndex = 7
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(59, 112)
+        Me.Label5.Location = New System.Drawing.Point(44, 91)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 19)
+        Me.Label5.Size = New System.Drawing.Size(51, 16)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "PHONE"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(148, 63)
+        Me.TextBox1.Location = New System.Drawing.Point(111, 51)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(251, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(189, 20)
         Me.TextBox1.TabIndex = 5
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(27, 66)
+        Me.Label4.Location = New System.Drawing.Point(20, 54)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(93, 19)
+        Me.Label4.Size = New System.Drawing.Size(76, 16)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "FULL NAME"
         '
@@ -224,8 +233,10 @@ Partial Class Form2
         Me.GroupBox2.BackColor = System.Drawing.Color.LightCoral
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Location = New System.Drawing.Point(0, 0)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(411, 45)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(308, 37)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
         '
@@ -233,81 +244,43 @@ Partial Class Form2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(11, 14)
+        Me.Label3.Location = New System.Drawing.Point(8, 11)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(239, 22)
+        Me.Label3.Size = New System.Drawing.Size(198, 18)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "APPOINTMENT DETAILS"
         '
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Wheat
-        Me.GroupBox3.Location = New System.Drawing.Point(456, 125)
+        Me.GroupBox3.Location = New System.Drawing.Point(342, 102)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(846, 388)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Size = New System.Drawing.Size(634, 315)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.FullName, Me.Phone, Me.Email, Me.Service, Me.TimeSlot, Me.PreferredDate})
-        Me.DataGridView1.Location = New System.Drawing.Point(476, 139)
+        Me.DataGridView1.Location = New System.Drawing.Point(357, 113)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(805, 352)
+        Me.DataGridView1.Size = New System.Drawing.Size(604, 286)
         Me.DataGridView1.TabIndex = 0
-        '
-        'FullName
-        '
-        Me.FullName.HeaderText = "FullName"
-        Me.FullName.MinimumWidth = 6
-        Me.FullName.Name = "FullName"
-        Me.FullName.Width = 125
-        '
-        'Phone
-        '
-        Me.Phone.HeaderText = "Phone"
-        Me.Phone.MinimumWidth = 6
-        Me.Phone.Name = "Phone"
-        Me.Phone.Width = 125
-        '
-        'Email
-        '
-        Me.Email.HeaderText = "Email"
-        Me.Email.MinimumWidth = 6
-        Me.Email.Name = "Email"
-        Me.Email.Width = 125
-        '
-        'Service
-        '
-        Me.Service.HeaderText = "Service"
-        Me.Service.MinimumWidth = 6
-        Me.Service.Name = "Service"
-        Me.Service.Width = 125
-        '
-        'TimeSlot
-        '
-        Me.TimeSlot.HeaderText = "TimeSlot"
-        Me.TimeSlot.MinimumWidth = 6
-        Me.TimeSlot.Name = "TimeSlot"
-        Me.TimeSlot.Width = 125
-        '
-        'PreferredDate
-        '
-        Me.PreferredDate.HeaderText = "PreferredDate"
-        Me.PreferredDate.MinimumWidth = 6
-        Me.PreferredDate.Name = "PreferredDate"
-        Me.PreferredDate.Width = 125
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.LightCoral
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(535, 539)
+        Me.Button1.Location = New System.Drawing.Point(401, 438)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(273, 40)
+        Me.Button1.Size = New System.Drawing.Size(205, 32)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "BOOK NOW"
         Me.Button1.UseVisualStyleBackColor = False
@@ -316,9 +289,10 @@ Partial Class Form2
         '
         Me.Button2.BackColor = System.Drawing.Color.Beige
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(28, 654)
+        Me.Button2.Location = New System.Drawing.Point(21, 531)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(80, 27)
+        Me.Button2.Size = New System.Drawing.Size(60, 22)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "BACK"
         Me.Button2.UseVisualStyleBackColor = False
@@ -327,9 +301,10 @@ Partial Class Form2
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(268, 622)
+        Me.Label11.Location = New System.Drawing.Point(201, 505)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(807, 25)
+        Me.Label11.Size = New System.Drawing.Size(665, 20)
         Me.Label11.TabIndex = 6
         Me.Label11.Text = " Important Notice: If a time slot is already booked on that date, please refrain " &
     "from selecting it."
@@ -338,9 +313,10 @@ Partial Class Form2
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(991, 539)
+        Me.Label12.Location = New System.Drawing.Point(743, 438)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(274, 16)
+        Me.Label12.Size = New System.Drawing.Size(228, 13)
         Me.Label12.TabIndex = 8
         Me.Label12.Text = "SEND YOUR DOWN PAYMENT HERE."
         '
@@ -348,9 +324,10 @@ Partial Class Form2
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(1010, 563)
+        Me.Label13.Location = New System.Drawing.Point(758, 457)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(95, 16)
+        Me.Label13.Size = New System.Drawing.Size(84, 13)
         Me.Label13.TabIndex = 9
         Me.Label13.Text = "09352621748"
         '
@@ -358,18 +335,19 @@ Partial Class Form2
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(1127, 563)
+        Me.Label14.Location = New System.Drawing.Point(845, 457)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(104, 16)
+        Me.Label14.Size = New System.Drawing.Size(89, 13)
         Me.Label14.TabIndex = 10
         Me.Label14.Text = "GI*N CA**O S."
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Beige
-        Me.ClientSize = New System.Drawing.Size(1342, 707)
+        Me.ClientSize = New System.Drawing.Size(1006, 574)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
@@ -381,6 +359,7 @@ Partial Class Form2
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -415,12 +394,6 @@ Partial Class Form2
     Friend WithEvents Button2 As Button
     Friend WithEvents Label11 As Label
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents FullName As DataGridViewTextBoxColumn
-    Friend WithEvents Phone As DataGridViewTextBoxColumn
-    Friend WithEvents Email As DataGridViewTextBoxColumn
-    Friend WithEvents Service As DataGridViewTextBoxColumn
-    Friend WithEvents TimeSlot As DataGridViewTextBoxColumn
-    Friend WithEvents PreferredDate As DataGridViewTextBoxColumn
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
