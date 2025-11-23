@@ -48,6 +48,7 @@ Partial Class Form2
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.LabelError = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,9 +94,9 @@ Partial Class Form2
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Location = New System.Drawing.Point(29, 102)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(308, 315)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
@@ -103,7 +104,7 @@ Partial Class Form2
         'DateTimePicker1
         '
         Me.DateTimePicker1.Location = New System.Drawing.Point(116, 253)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(185, 20)
         Me.DateTimePicker1.TabIndex = 17
@@ -134,7 +135,7 @@ Partial Class Form2
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.Items.AddRange(New Object() {"9:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00", "1:00 - 2:00", "2:00 - 3:00", "4:00 - 5:00", "5:00 - 6:00", "6:00 - 7:00"})
         Me.ListBox2.Location = New System.Drawing.Point(116, 214)
-        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(185, 17)
         Me.ListBox2.TabIndex = 14
@@ -144,7 +145,7 @@ Partial Class Form2
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Items.AddRange(New Object() {"HAIRSTYLES", "TREATMENTS", "HAIR COLORING"})
         Me.ListBox1.Location = New System.Drawing.Point(111, 171)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(189, 17)
         Me.ListBox1.TabIndex = 13
@@ -174,7 +175,7 @@ Partial Class Form2
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(111, 128)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(189, 20)
         Me.TextBox3.TabIndex = 9
@@ -193,7 +194,7 @@ Partial Class Form2
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(111, 91)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(189, 20)
         Me.TextBox2.TabIndex = 7
@@ -212,7 +213,7 @@ Partial Class Form2
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(111, 51)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(189, 20)
         Me.TextBox1.TabIndex = 5
@@ -233,9 +234,9 @@ Partial Class Form2
         Me.GroupBox2.BackColor = System.Drawing.Color.LightCoral
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Location = New System.Drawing.Point(0, 0)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Size = New System.Drawing.Size(308, 37)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
@@ -255,9 +256,9 @@ Partial Class Form2
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Wheat
         Me.GroupBox3.Location = New System.Drawing.Point(342, 102)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox3.Size = New System.Drawing.Size(634, 315)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
@@ -266,7 +267,7 @@ Partial Class Form2
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(357, 113)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
@@ -278,7 +279,7 @@ Partial Class Form2
         Me.Button1.BackColor = System.Drawing.Color.LightCoral
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(401, 438)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(205, 32)
         Me.Button1.TabIndex = 4
@@ -290,7 +291,7 @@ Partial Class Form2
         Me.Button2.BackColor = System.Drawing.Color.Beige
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(21, 531)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(60, 22)
         Me.Button2.TabIndex = 5
@@ -342,12 +343,24 @@ Partial Class Form2
         Me.Label14.TabIndex = 10
         Me.Label14.Text = "GI*N CA**O S."
         '
+        'LabelError
+        '
+        Me.LabelError.AutoSize = True
+        Me.LabelError.ForeColor = System.Drawing.Color.Red
+        Me.LabelError.Location = New System.Drawing.Point(398, 423)
+        Me.LabelError.Name = "LabelError"
+        Me.LabelError.Size = New System.Drawing.Size(45, 13)
+        Me.LabelError.TabIndex = 11
+        Me.LabelError.Text = "Label15"
+        Me.LabelError.Visible = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Beige
         Me.ClientSize = New System.Drawing.Size(1006, 574)
+        Me.Controls.Add(Me.LabelError)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
@@ -359,7 +372,7 @@ Partial Class Form2
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -397,4 +410,5 @@ Partial Class Form2
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
+    Friend WithEvents LabelError As Label
 End Class
